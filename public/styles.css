@@ -1,0 +1,51 @@
+:root {
+  --fg: #111;
+  --bg: #fafafa;
+  --accent: #0066ff;
+  --muted: #666;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+main {
+  max-width: 640px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+button {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--fg);
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: var(--fg);
+  color: white;
+}
+
+[id$="-out"] {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  min-height: 1.5em;
+}
