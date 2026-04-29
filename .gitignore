@@ -1,10 +1,4 @@
+/web/web
+/fastbuild
+*.exe
 .DS_Store
-.firebase/
-.runtimeconfig.json
-firebase-debug.log
-ui-debug.log
-
-# Go
-functions/vendor/
-*.test
-*.out
